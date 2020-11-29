@@ -1,2 +1,2 @@
-webXR userstory - als gebruiker wil ik webXR gebruiken zodat ik de binnenkant van het atelier
+webXR userstory - als gebruiker wil ik webXR gebruiken zodat ik de binnenkant van het atelier kan bekijken
 webpagina userstory - als gebruiker wil ik op de webpagina duidelijke info vinden over het museum zodat ik kan kijken of ik naar het museum wil
