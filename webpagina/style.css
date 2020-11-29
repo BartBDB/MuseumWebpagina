@@ -1,0 +1,24 @@
+.topnav {
+  background-color: #333; /*Achtergrondkleur achter de knoppen */
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right; /* Locatie van de knoppen */
+  color: #f2f2f2; /* Tekstkleur */
+  text-align: center; /* Tekstlocatie in knop */
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; /* tekstgrootte */
+}
+
+/*Dit veranderd de kleur als je met de muis erover gaat */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Dit is voor de link die nu actief is */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
