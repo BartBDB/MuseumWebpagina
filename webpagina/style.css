@@ -1,0 +1,43 @@
+body{
+  background-image: url("afb/LAM.jpg"); /*dit is voor de background image*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0%;
+  color: white;
+}
+
+.topnav {
+    background-color: #555555c9; /*Achtergrondkleur achter de knoppen */
+    overflow: hidden;
+    /*#ffc756c9*/
+  }
+  
+  .topnav a {
+    float: left; /* Locatie van de knoppen */
+    color: #ffffff; /* Tekstkleur */
+    text-align: center; /* Tekstlocatie in knop */
+    text-decoration: none;
+    padding: 25px 25px;
+    margin: 0%;
+    font-size: 20px; /* tekstgrootte */
+    font-family: sans-serif;
+  }
+  
+  /*Dit veranderd de kleur als je met de muis erover gaat */
+  .topnav a:hover {
+    background-color: #474747c9;
+    color: rgb(255, 255, 255);
+    /*#fab52ac9*/
+  }
+  /* Dit is voor de link die nu actief is */
+  .topnav a.active {
+    background-color: #2525258f;
+    color: rgb(255, 255, 255);
+  }
+
+  #Help{
+    float: right;
+    margin-right: 10px;
+  }
+  
