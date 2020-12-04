@@ -19,9 +19,12 @@ body{
     text-align: center; /* Tekstlocatie in knop */
     text-decoration: none;
     padding: 25px 25px;
-    margin: 0%;
+    margin-left: 15px;
     font-size: 20px; /* tekstgrootte */
     font-family: sans-serif;
+  }
+  .topnav a #logo{
+    height: 25px;
   }
   
   /*Dit veranderd de kleur als je met de muis erover gaat */
