@@ -1,11 +1,21 @@
 body{
   background-image: url("afb/LAM.jpg"); /*dit is voor de background image*/
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: no-repeat; /* dit is dat de afbeelding niet zich zelf copieerd steeds*/
+  background-size: cover; /* zorgt er voor dat de afbeelding over het hele scherm zit */
   height: 100%;
-  margin: 0%;
-  color: white;
+  margin: 0%; /* zorgt ervoor dat de navbar tegen de boven kant en zij kanten aan zit*/
+  color: rgb(0, 0, 0);
 }
+p{
+  border: none white 3px;
+  text-align: center; /* spreekt voor zich zelf dit is waar de text is */
+  margin-top: 100px; /* dit is voor hoe ver de text van de nav bar af is*/
+  background-color: rgba(255, 255, 255, 0.432);
+  padding: 10px;
+  margin-left: 200px; /* hoe groot de text box is(hoe minder pixels hoe groter) */
+  margin-right: 200px;
+}
+
 
 .topnav {
     background-color: #555555c9; /*Achtergrondkleur achter de knoppen */
@@ -24,7 +34,7 @@ body{
     font-family: sans-serif;
   }
   .topnav a #logo{
-    height: 19px;
+    height: 19px; /* grote van het logo*/
   }
   
   /*Dit veranderd de kleur als je met de muis erover gaat */
