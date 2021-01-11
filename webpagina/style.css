@@ -58,6 +58,6 @@ a-scene {
   }
   
   /* hier bewerk je dus de css voor de webxr window, let alsjeblieft op typefouten Thom */
-  .webxr {
- 
+  #webxr {
+    padding-left: 600px;
   }
