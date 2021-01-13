@@ -1,5 +1,5 @@
 body{
-  background-image: url("afb/LAM.jpg"); /*dit is voor de background image*/
+  background-image: url("assets/images/LAM.jpg"); /*dit is voor de background image*/
   background-repeat: no-repeat; /* dit is dat de afbeelding niet zich zelf copieerd steeds*/
   background-size: cover; /* zorgt er voor dat de afbeelding over het hele scherm zit */
   height: 100%;
