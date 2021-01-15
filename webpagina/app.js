@@ -70,5 +70,50 @@ brush2.setPosition(-4.593, 1.3, 4,888);
 brush2.setScale(0.005, 0.005, 0.005);
 brush2.setRotation(0, 0, 90);
 
+const pallet = new Model('assets/models/pallet/scene.gltf');
+pallet.setPosition(2.513, 0.006, 0.813);
+pallet.setScale(0.007, 0.007, 0.007);
+pallet.setRotation(0, 0, 0);
+
+const blik1 = new Model('assets/models/plastic/scene.gltf');
+blik1.setPosition(2.136, 0.421, 0.757);
+blik1.setScale(0.01, 0.01, 0.01);
+blik1.setRotation(0, 0, 0);
+
+const box = new Model('assets/models/palletbox/scene.gltf');
+box.setPosition(-3.338, 0.576, )-0.869;
+box.setScale(0.1, 0.1, 0.1);
+box.setRotation(0, 0, 0);
+
+const kunst1 = new Model('assets/models/hooman/hooman.gltf');
+kunst1.setPosition(4.508, 0.083, -2.861);
+kunst1.setScale(7, 7, 7);
+kunst1.setRotation(0, -59.151, 0);
+
+const bucket = new Model('assets/models/bucket/scene.gltf');
+bucket.setPosition(2.374, 0.234, 0.941);
+bucket.setScale(7, 7, 7);
+bucket.setRotation(0, 0, 0);
+
+const bucket2 = new Model('assets/models/bucket/scene.gltf');
+bucket2.setPosition(2.374, 0.664, 1.664);
+bucket2.setScale(7, 7, 7);
+bucket2.setRotation(80.099, 0.001, 0.001);
+
+const bucket3 = new Model('assets/models/bucket/scene.gltf');
+bucket3.setPosition(2.374, 0.267, 0.941);
+bucket3.setScale(7, 7, 7);
+bucket3.setRotation(0, 0, 0);
+
+const truck = new Model('assets/models/pallettruck/scene.gltf');
+truck.setPosition(-1.689, 0.910, -0.215);
+truck.setScale(0.005, 0.005, 0.005);
+truck.setRotation(0, 59.168, 0);
+
+const trashpile = new Model('assets/models/trashpile/scene.gltf');
+trashpile.setPosition(0, .25, 0);
+trashpile.setScale(1, 1, 1);
+trashpile.setRotation(0, 0, 0);
+
 // listen for an event
 // minecraftModel.addEventListener('click', () => console.log('je klikt op mij'));
