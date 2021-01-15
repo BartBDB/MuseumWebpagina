@@ -10,7 +10,7 @@ p{
   border: none white 3px;
   text-align: center; /* spreekt voor zich zelf dit is waar de text is */
   margin-top: 100px; /* dit is voor hoe ver de text van de nav bar af is*/
-  background-color: rgba(255, 255, 255, 0.432);
+  background-color: rgba(255, 255, 255, 0.815);
   padding: 10px;
   margin-left: 200px; /* hoe groot de text box is(hoe minder pixels hoe groter) */
   margin-right: 200px;
@@ -59,5 +59,7 @@ a-scene {
   
   /* hier bewerk je dus de css voor de webxr window, let alsjeblieft op typefouten Thom */
   #webxr {
-    padding-left: 600px;
+    max-width: 500px;
+    padding-left: 425px;
+    align-items: center;
   }
