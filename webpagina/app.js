@@ -85,10 +85,18 @@ box.setPosition(-3.338, 0.576, -0.869);
 box.setScale(0.1, 0.1, 0.1);
 box.setRotation(0, 0, 0);
 
-const kunst1 = new Model('assets/models/hooman/hooman.gltf');
+const kunst1 = new Model('assets/models/hooman/hooman.gltf'); //Dit ding is echt effe nightmare fuel
 kunst1.setPosition(4.508, 0.083, -2.861);
 kunst1.setScale(7, 7, 7);
 kunst1.setRotation(0, -59.151, 0);
+
+kunst1.addEventListener('click', () => {
+const image3 = new XRImage('assets/images/tekst3.png');
+image3.setPosition(3, 1, -2.7);
+image3.setRotation(0, -90, 0);
+image3.setScale(2, 2, 2);
+}
+);
 
 const bucket = new Model('assets/models/bucket/scene.gltf');
 bucket.setPosition(2.374, 0.234, 0.941);
@@ -114,7 +122,3 @@ const trashpile = new Model('assets/models/trashpile/scene.gltf');
 trashpile.setPosition(-3.5, .10, -1);
 trashpile.setScale(1, 1, 1);
 trashpile.setRotation(0, 0, 0);
-
-
-// listen for an event
-// minecraftModel.addEventListener('click', () => console.log('je klikt op mij'));
