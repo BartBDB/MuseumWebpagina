@@ -72,7 +72,7 @@ brush2.setRotation(0, 0, 90);
 
 const pallet = new Model('assets/models/pallet/scene.gltf');
 pallet.setPosition(2.513, 0.006, 0.813);
-pallet.setScale(0.007, 0.007, 0.007);
+pallet.setScale(0.003, 0.003, 0.003);
 pallet.setRotation(0, 0, 0);
 
 const blik1 = new Model('assets/models/plastic/scene.gltf');
@@ -81,7 +81,7 @@ blik1.setScale(0.01, 0.01, 0.01);
 blik1.setRotation(0, 0, 0);
 
 const box = new Model('assets/models/palletbox/scene.gltf');
-box.setPosition(-3.338, 0.576, )-0.869;
+box.setPosition(-3.338, 0.576, -0.869);
 box.setScale(0.1, 0.1, 0.1);
 box.setRotation(0, 0, 0);
 
@@ -114,6 +114,7 @@ const trashpile = new Model('assets/models/trashpile/scene.gltf');
 trashpile.setPosition(-3.5, .10, -1);
 trashpile.setScale(1, 1, 1);
 trashpile.setRotation(0, 0, 0);
+
 
 // listen for an event
 // minecraftModel.addEventListener('click', () => console.log('je klikt op mij'));
