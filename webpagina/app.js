@@ -111,7 +111,7 @@ truck.setScale(0.005, 0.005, 0.005);
 truck.setRotation(0, 59.168, 0);
 
 const trashpile = new Model('assets/models/trashpile/scene.gltf');
-trashpile.setPosition(0, .25, 0);
+trashpile.setPosition(-3.5, .10, -1);
 trashpile.setScale(1, 1, 1);
 trashpile.setRotation(0, 0, 0);
 
