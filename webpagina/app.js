@@ -72,7 +72,7 @@ brush2.setRotation(0, 0, 90);
 
 const pallet = new Model('assets/models/pallet/scene.gltf');
 pallet.setPosition(2.513, 0.006, 0.813);
-pallet.setScale(0.003, 0.003, 0.003);
+pallet.setScale(0.007, 0.007, 0.007);
 pallet.setRotation(0, 0, 0);
 
 const blik1 = new Model('assets/models/plastic/scene.gltf');
@@ -81,22 +81,14 @@ blik1.setScale(0.01, 0.01, 0.01);
 blik1.setRotation(0, 0, 0);
 
 const box = new Model('assets/models/palletbox/scene.gltf');
-box.setPosition(-3.338, 0.576, -0.869);
+box.setPosition(-3.338, 0.576, )-0.869;
 box.setScale(0.1, 0.1, 0.1);
 box.setRotation(0, 0, 0);
 
-const kunst1 = new Model('assets/models/hooman/hooman.gltf'); //Dit ding is echt effe nightmare fuel
+const kunst1 = new Model('assets/models/hooman/hooman.gltf');
 kunst1.setPosition(4.508, 0.083, -2.861);
 kunst1.setScale(7, 7, 7);
 kunst1.setRotation(0, -59.151, 0);
-
-kunst1.addEventListener('click', () => {
-const image3 = new XRImage('assets/images/tekst3.png');
-image3.setPosition(3, 1, -2.7);
-image3.setRotation(0, -90, 0);
-image3.setScale(2, 2, 2);
-}
-);
 
 const bucket = new Model('assets/models/bucket/scene.gltf');
 bucket.setPosition(2.374, 0.234, 0.941);
@@ -122,3 +114,21 @@ const trashpile = new Model('assets/models/trashpile/scene.gltf');
 trashpile.setPosition(-3.5, .10, -1);
 trashpile.setScale(1, 1, 1);
 trashpile.setRotation(0, 0, 0);
+
+const trashpile2 = new Model('assets/models/trashpile/scene.gltf');
+trashpile2.setPosition(2.5, .10, -1);
+trashpile2.setScale(1, 1, 1);
+trashpile2.setRotation(0, 0, 0);
+
+const trashpile3 = new Model('assets/models/trashpile/scene.gltf');
+trashpile3.setPosition(-1.5, .10, 7);
+trashpile3.setScale(1, 1, 1);
+trashpile3.setRotation(0, 0, 0);
+
+//const glass = new Model('assets/models/glass/hooman.gltf');
+//glass.setPosition(0, 0, 0);
+//glass.setScale(1, 1, 1);
+//glass.setRotation(0, 0, 0);
+
+// listen for an event
+// minecraftModel.addEventListener('click', () => console.log('je klikt op mij'));

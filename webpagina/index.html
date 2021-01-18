@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-    .p1 {
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-</style>
     <script src="library/aframe.js"></script>
     <script src="library/ma-webxr.js" defer></script>
     <script src="app.js" defer></script>
@@ -16,14 +11,12 @@
         <a href="#home">Home</a> <!--Hier kan je kiezen welke links in de bar staan. De active class is belangrijk voor het css om die box een andere kleur te geven. -->
         <a class="active" href="#WebXR">WebXR</a>
         <a href="#about">About</a>
-        <a href="englishindex.html">English</a>
         <a href="#Help" id="Help">Help</a>
     </div>
 </head>
 <body>
-    <P> <p class="p1">Welkom bij het LAM museum!</p>
-        <br>
-        <br> <p class="p1">Het LAM is een museum op het landgoed Keukenhof. Dichtbij het museum staat ook het kasteel keukenhof
+    <h1 id="titel" class="p1">Welkom bij de WebXR experience van het LAM</h1>
+        <p id="box" class="p1">Het LAM is een museum op het landgoed Keukenhof. Dichtbij het museum staat ook het kasteel keukenhof
         <br> Geniet van het heerlijke gevoel om weer even een paar jaar terug in de tijd te gaan in het LAM museum omringt door de prachtige werken van Folkert de Jong.
         <br> Beelden, schilderijen, andere kunstwerken? Wij hebben het allemaal!
         <br> 
@@ -35,22 +28,22 @@
         <br>
         <br> CONTROLS:
         <br> W,A,S,D om te bewegen
-        <br> Linker muis knop om mee te slepen en rond te kijken</p>
-    </P>
+        <br> Linker muis knop om mee te slepen en rond te kijken
+        <br> F voor volledigscherm en dan weer Esc om daar uit te gaan
+    </p>
+
     <section id="webxr">
         <a-scene background="color: white" embedded></a-scene>
     </section>
-    
-    <P>
-        <br> <p class="p1">Over de kunstenaar: Folkert de Jong
+    <p id="box" class="p1">Over de kunstenaar: Folkert de Jong
         <br>
+        <img src="assets/images/folkert.jpg" alt="Folkert de Jong" id="Folkert">
         <br>
         <br>Folkert de Jong is een Nederlandse beeldhouder en kunstenaar, geboren in Amsterdam (Egmond aan zee) en leeft/werkt er nu nog. Zoals je ziet bestaat zijn werk uit levensgrote beelden en meer. Al zijn werken zijn op het verleden gericht en hebben ook meestal een belangrijke betekenis erachter zitten.
         <br>
         <br>De Jong is opgeleid aan de Amsterdamse Hogeschool voor de Kunsten (1994-1996) en de Rijksacademie van Beeldende Kunsten te Amsterdam (1998-2000).
         <br>
-        <br>Folkert’s werk wisselt erg vaak tussen kleurrijk en vrolijk en gruwelijk of duister, zelf vind hij de tweede leuker. Al zijn werk is te vinden in dit museum.</p>
-    </P>
-
+        <br>Folkert’s werk wisselt erg vaak tussen kleurrijk en vrolijk en gruwelijk of duister, zelf vind hij de tweede leuker. Al zijn werk is te vinden in dit museum.
+    <p>
 </body>
 </html>

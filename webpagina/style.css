@@ -6,7 +6,10 @@ body{
   margin: 0%; /* zorgt ervoor dat de navbar tegen de boven kant en zij kanten aan zit*/
   color: rgb(0, 0, 0);
 }
-p{
+.p1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+#box{
   border: none white 3px;
   text-align: center; /* spreekt voor zich zelf dit is waar de text is */
   margin-top: 100px; /* dit is voor hoe ver de text van de nav bar af is*/
@@ -14,6 +17,14 @@ p{
   padding: 10px;
   margin-left: 200px; /* hoe groot de text box is(hoe minder pixels hoe groter) */
   margin-right: 200px;
+}
+#titel{
+  text-align: center;
+  border: solid rgb(226, 226, 226) 3px;
+  background-color: rgba(255, 255, 255, 0.815);
+  margin-left: 200px;
+  margin-right: 200px;
+
 }
 a-scene {
   width:700px;
@@ -62,4 +73,9 @@ a-scene {
     max-width: 500px;
     padding-left: 425px;
     align-items: center;
+  }
+  #Folkert{
+    max-width: 25%;
+    border: solid black 3px;
+    
   }
