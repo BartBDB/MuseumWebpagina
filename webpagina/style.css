@@ -32,7 +32,7 @@ a-scene {
 }
 
 .topnav {
-    background-color: #555555c9; /*Achtergrondkleur achter de knoppen */
+    background-color: #555555; /*Achtergrondkleur achter de knoppen */
     overflow: hidden;
     /*#ffc756c9*/
   }
@@ -45,7 +45,7 @@ a-scene {
     padding: 25px 25px;
     margin-left: 15px;
     font-size: 20px; /* tekstgrootte */
-    font-family: sans-serif;
+    font-family: sans-serif; /*lettertype font-family*/
   }
   .topnav a #logo{
     height: 19px; /* grote van het logo*/
